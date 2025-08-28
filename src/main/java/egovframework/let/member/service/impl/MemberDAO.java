@@ -24,7 +24,7 @@ public class MemberDAO extends EgovAbstractMapper {
     	return selectOne("memberDAO.findPassword", vo);
     }
     
-    //회원비밀번호업데이트
+    //회원비밀번호업데이트수정
     public void passwordUpdate(MemberVO vo) throws Exception{
     	update("memberDAO.passwordUpdate", vo);
     }
